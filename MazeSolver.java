@@ -172,7 +172,7 @@ public class MazeSolver {
     public static void main(String[] args) 
     {
         MazeSolver mazeSolver = new MazeSolver();
-        mazeSolver.LoadMaze("/Users/metromoomin/Desktop/School/java/old/maze_txt.txt");
+        mazeSolver.LoadMaze("/path-to-maze_txt/maze_txt.txt");
         mazeSolver.findShortestPath();
         mazeSolver.displayShortestPath(); 
         mazeSolver.printMazeAsImage("maze_image.png");
